@@ -1,0 +1,1 @@
+cmd_/home/pi/Documents/bme280/c/bme280.ko := ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/pi/Documents/bme280/c/bme280.ko /home/pi/Documents/bme280/c/bme280.o /home/pi/Documents/bme280/c/bme280.mod.o;  true
