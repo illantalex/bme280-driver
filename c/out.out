@@ -1,0 +1,99 @@
+linux-libc-dev-amd64-cross - Linux Kernel Headers for development (for cross-compiling)
+linux-libc-dev-arm64-cross - Linux Kernel Headers for development (for cross-compiling)
+linux-libc-dev-armel-cross - Linux Kernel Headers for development (for cross-compiling)
+linux-libc-dev-armhf-cross - Linux Kernel Headers for development (for cross-compiling)
+linux-libc-dev-i386-cross - Linux Kernel Headers for development (for cross-compiling)
+linux-libc-dev-ppc64el-cross - Linux Kernel Headers for development (for cross-compiling)
+linux-libc-dev-s390x-cross - Linux Kernel Headers for development (for cross-compiling)
+linux-libc-dev-mips-cross - Linux Kernel Headers for development (for cross-compiling)
+linux-libc-dev-mips64-cross - Linux Kernel Headers for development (for cross-compiling)
+linux-libc-dev-mips64el-cross - Linux Kernel Headers for development (for cross-compiling)
+linux-libc-dev-mips64r6-cross - Linux Kernel Headers for development (for cross-compiling)
+linux-libc-dev-mips64r6el-cross - Linux Kernel Headers for development (for cross-compiling)
+linux-libc-dev-mipsel-cross - Linux Kernel Headers for development (for cross-compiling)
+linux-libc-dev-mipsn32-cross - Linux Kernel Headers for development (for cross-compiling)
+linux-libc-dev-mipsn32el-cross - Linux Kernel Headers for development (for cross-compiling)
+linux-libc-dev-mipsn32r6-cross - Linux Kernel Headers for development (for cross-compiling)
+linux-libc-dev-mipsn32r6el-cross - Linux Kernel Headers for development (for cross-compiling)
+linux-libc-dev-mipsr6-cross - Linux Kernel Headers for development (for cross-compiling)
+linux-libc-dev-mipsr6el-cross - Linux Kernel Headers for development (for cross-compiling)
+linux-libc-dev-alpha-cross - Linux Kernel Headers for development (for cross-compiling)
+linux-libc-dev-hppa-cross - Linux Kernel Headers for development (for cross-compiling)
+linux-libc-dev-m68k-cross - Linux Kernel Headers for development (for cross-compiling)
+linux-libc-dev-powerpc-cross - Linux Kernel Headers for development (for cross-compiling)
+linux-libc-dev-ppc64-cross - Linux Kernel Headers for development (for cross-compiling)
+linux-libc-dev-riscv64-cross - Linux Kernel Headers for development (for cross-compiling)
+linux-libc-dev-sh4-cross - Linux Kernel Headers for development (for cross-compiling)
+linux-libc-dev-sparc64-cross - Linux Kernel Headers for development (for cross-compiling)
+linux-libc-dev-x32-cross - Linux Kernel Headers for development (for cross-compiling)
+linux-headers-5.10.0-18-arm64 - Header files for Linux 5.10.0-18-arm64
+linux-headers-5.10.0-18-armmp - Header files for Linux 5.10.0-18-armmp
+linux-headers-5.10.0-18-armmp-lpae - Header files for Linux 5.10.0-18-armmp-lpae
+linux-headers-5.10.0-18-cloud-arm64 - Header files for Linux 5.10.0-18-cloud-arm64
+linux-headers-5.10.0-18-common - Common header files for Linux 5.10.0-18
+linux-headers-5.10.0-18-common-rt - Common header files for Linux 5.10.0-18-rt
+linux-headers-5.10.0-18-rt-arm64 - Header files for Linux 5.10.0-18-rt-arm64
+linux-headers-5.10.0-18-rt-armmp - Header files for Linux 5.10.0-18-rt-armmp
+linux-headers-5.10.0-20-arm64 - Header files for Linux 5.10.0-20-arm64
+linux-headers-5.10.0-20-armmp - Header files for Linux 5.10.0-20-armmp
+linux-headers-5.10.0-20-armmp-lpae - Header files for Linux 5.10.0-20-armmp-lpae
+linux-headers-5.10.0-20-cloud-arm64 - Header files for Linux 5.10.0-20-cloud-arm64
+linux-headers-5.10.0-20-common - Common header files for Linux 5.10.0-20
+linux-headers-5.10.0-20-common-rt - Common header files for Linux 5.10.0-20-rt
+linux-headers-5.10.0-20-rt-arm64 - Header files for Linux 5.10.0-20-rt-arm64
+linux-headers-5.10.0-20-rt-armmp - Header files for Linux 5.10.0-20-rt-armmp
+linux-headers-armmp - Header files for Linux armmp configuration (meta-package)
+linux-headers-armmp-lpae - Header files for Linux armmp-lpae configuration (meta-package)
+linux-headers-rt-armmp - Header files for Linux rt-armmp configuration (meta-package)
+linux-headers-arm64 - Header files for Linux arm64 configuration (meta-package)
+linux-headers-cloud-arm64 - Header files for Linux cloud-arm64 configuration (meta-package)
+linux-headers-rt-arm64 - Header files for Linux rt-arm64 configuration (meta-package)
+linux-headers-5.10.0-12-arm64 - Header files for Linux 5.10.0-12-arm64
+linux-headers-5.10.0-12-armmp - Header files for Linux 5.10.0-12-armmp
+linux-headers-5.10.0-12-armmp-lpae - Header files for Linux 5.10.0-12-armmp-lpae
+linux-headers-5.10.0-12-cloud-arm64 - Header files for Linux 5.10.0-12-cloud-arm64
+linux-headers-5.10.0-12-common - Common header files for Linux 5.10.0-12
+linux-headers-5.10.0-12-common-rt - Common header files for Linux 5.10.0-12-rt
+linux-headers-5.10.0-12-rt-arm64 - Header files for Linux 5.10.0-12-rt-arm64
+linux-headers-5.10.0-12-rt-armmp - Header files for Linux 5.10.0-12-rt-armmp
+linux-headers-5.10.0-14-arm64 - Header files for Linux 5.10.0-14-arm64
+linux-headers-5.10.0-14-armmp - Header files for Linux 5.10.0-14-armmp
+linux-headers-5.10.0-14-armmp-lpae - Header files for Linux 5.10.0-14-armmp-lpae
+linux-headers-5.10.0-14-cloud-arm64 - Header files for Linux 5.10.0-14-cloud-arm64
+linux-headers-5.10.0-14-common - Common header files for Linux 5.10.0-14
+linux-headers-5.10.0-14-common-rt - Common header files for Linux 5.10.0-14-rt
+linux-headers-5.10.0-14-rt-arm64 - Header files for Linux 5.10.0-14-rt-arm64
+linux-headers-5.10.0-14-rt-armmp - Header files for Linux 5.10.0-14-rt-armmp
+linux-headers-5.10.0-15-arm64 - Header files for Linux 5.10.0-15-arm64
+linux-headers-5.10.0-15-armmp - Header files for Linux 5.10.0-15-armmp
+linux-headers-5.10.0-15-armmp-lpae - Header files for Linux 5.10.0-15-armmp-lpae
+linux-headers-5.10.0-15-cloud-arm64 - Header files for Linux 5.10.0-15-cloud-arm64
+linux-headers-5.10.0-15-common - Common header files for Linux 5.10.0-15
+linux-headers-5.10.0-15-common-rt - Common header files for Linux 5.10.0-15-rt
+linux-headers-5.10.0-15-rt-arm64 - Header files for Linux 5.10.0-15-rt-arm64
+linux-headers-5.10.0-15-rt-armmp - Header files for Linux 5.10.0-15-rt-armmp
+linux-headers-5.10.0-16-arm64 - Header files for Linux 5.10.0-16-arm64
+linux-headers-5.10.0-16-armmp - Header files for Linux 5.10.0-16-armmp
+linux-headers-5.10.0-16-armmp-lpae - Header files for Linux 5.10.0-16-armmp-lpae
+linux-headers-5.10.0-16-cloud-arm64 - Header files for Linux 5.10.0-16-cloud-arm64
+linux-headers-5.10.0-16-common - Common header files for Linux 5.10.0-16
+linux-headers-5.10.0-16-common-rt - Common header files for Linux 5.10.0-16-rt
+linux-headers-5.10.0-16-rt-arm64 - Header files for Linux 5.10.0-16-rt-arm64
+linux-headers-5.10.0-16-rt-armmp - Header files for Linux 5.10.0-16-rt-armmp
+linux-headers-5.10.0-17-arm64 - Header files for Linux 5.10.0-17-arm64
+linux-headers-5.10.0-17-armmp - Header files for Linux 5.10.0-17-armmp
+linux-headers-5.10.0-17-armmp-lpae - Header files for Linux 5.10.0-17-armmp-lpae
+linux-headers-5.10.0-17-cloud-arm64 - Header files for Linux 5.10.0-17-cloud-arm64
+linux-headers-5.10.0-17-common - Common header files for Linux 5.10.0-17
+linux-headers-5.10.0-17-common-rt - Common header files for Linux 5.10.0-17-rt
+linux-headers-5.10.0-17-rt-arm64 - Header files for Linux 5.10.0-17-rt-arm64
+linux-headers-5.10.0-17-rt-armmp - Header files for Linux 5.10.0-17-rt-armmp
+linux-headers-5.10.0-19-arm64 - Header files for Linux 5.10.0-19-arm64
+linux-headers-5.10.0-19-armmp - Header files for Linux 5.10.0-19-armmp
+linux-headers-5.10.0-19-armmp-lpae - Header files for Linux 5.10.0-19-armmp-lpae
+linux-headers-5.10.0-19-cloud-arm64 - Header files for Linux 5.10.0-19-cloud-arm64
+linux-headers-5.10.0-19-common - Common header files for Linux 5.10.0-19
+linux-headers-5.10.0-19-common-rt - Common header files for Linux 5.10.0-19-rt
+linux-headers-5.10.0-19-rt-arm64 - Header files for Linux 5.10.0-19-rt-arm64
+linux-headers-5.10.0-19-rt-armmp - Header files for Linux 5.10.0-19-rt-armmp
+raspberrypi-kernel-headers - Header files for the Raspberry Pi Linux kernel
