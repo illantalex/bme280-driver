@@ -5,4 +5,5 @@ driver/.modules*
 driver/.Module*
 driver/bme280.mod*
 driver/bme280.o
+user/target
 
