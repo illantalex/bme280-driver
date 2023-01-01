@@ -51,7 +51,7 @@ fn main() -> io::Result<()> {
         match line {
             Ok(line) => {
                 let x = SensorReading::new(&line);
-                println!("Temperature: {:.2} Pressure: {:.2} Humidity: {:.2}",
+                println!("Temperature: {:.2}C Pressure: {:.2}Pa Humidity: {:.2}%",
                     x.temperature,
                     x.pressure,
                     x.humidity);
