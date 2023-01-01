@@ -82,3 +82,8 @@ The userspace example is a simple Rust program that reads the driver file as a s
 ```
 cd user/ && cargo run
 ```
+
+Here is a line of expected console output:
+```
+Temperature: 30.04 Pressure: 97246.00 Humidity: 24.83
+```
