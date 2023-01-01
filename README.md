@@ -81,4 +81,4 @@ To interpret this line:
 The userspace example is a simple Rust program that reads the driver file as a stream and parses it. To start it, run 
 ```
 cd user/ && cargo run
-```w
+```
