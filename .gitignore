@@ -1,0 +1,4 @@
+driver/.bme280*
+driver/modules.*
+driver/Module.*
+
