@@ -29,7 +29,7 @@ The output of `i2cdetect` should be something like
 ```
 Which indicates that the sensor is available at 0x76.
 
-## Building and running
+## Building and reading data
 
 Build the driver:
 ```
