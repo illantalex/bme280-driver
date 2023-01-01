@@ -76,4 +76,9 @@ To interpret this line:
 - Humidity is in percentage and is obtained by dividng the value by 1024, e.g.
   `27597/1024=25.9%`
 
+## Running the example
 
+The userspace example is a simple Rust program that reads the driver file as a stream and parses it. To start it, run 
+```
+cd user/ && cargo run
+```w
