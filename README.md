@@ -1,6 +1,6 @@
 # BME280 
 
-A Linux device driver written for the Bosch BME280 
+A Linux device driver for the Bosch BME280 using the I2C protocol, written in C. 
 
 ## Setup on Raspberry Pi
 
