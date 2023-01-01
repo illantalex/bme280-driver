@@ -250,11 +250,11 @@ static ssize_t bme280_read(struct file *fptr, char __user *buf, size_t len, loff
   sprintf(pressureStr,"%lu",pressure64);
   sprintf(humidityStr,"%ld",humidity);
 
-	strcpy(retStr, "H");
+	strcpy(retStr, "T");
 	strcat(retStr, tempStr);
-	strcat(retStr, "T");
-	strcat(retStr, pressureStr);
 	strcat(retStr, "P");
+	strcat(retStr, pressureStr);
+	strcat(retStr, "H");
 	strcat(retStr, humidityStr);
 	strcat(retStr, "\n");
 
