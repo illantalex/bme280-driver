@@ -2,7 +2,13 @@
 
 A Linux device driver for the Bosch BME280 using the I2C protocol, written in C. 
 
+<img src="https://user-images.githubusercontent.com/28817028/210186916-9eb196d5-eaf1-4856-9faa-2ae71ba2e0b0.png" width=50% height=50%>
+
+
 ## Setup on Raspberry Pi
+
+
+
 
 This driver was tested on a Raspberry Pi 4B. To run on Raspberry Pi OS:
 
