@@ -9,6 +9,7 @@
 #include <linux/i2c.h>
 #include <linux/kernel.h>
 #include <asm/div64.h>
+#include <linux/uaccess.h>
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("leungjch");
