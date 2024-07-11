@@ -208,7 +208,7 @@ void read_calibration(void)
   dig_P9 = CONCAT_BYTES(reg_data1[23], reg_data1[22]);
 
   // read calibration humidity registers
-  dig_H1 = reg_data1[24];
+  dig_H1 = i2c_smbus_read_byte_data(bme280_i2c_client, 0xA1);
   dig_H2 = CONCAT_BYTES(reg_data2[1], reg_data2[0]);
   dig_H3 = reg_data2[2];
 
@@ -377,11 +377,17 @@ static int init_driver(void)
   // read id, which is always 0x60 for bme280
   id = i2c_smbus_read_byte_data(bme280_i2c_client, 0xD0);
 
+  if (id != 0x60)
+  {
+    pr_err("bme280: id is not 0x60\n");
+    goto KernelError;
+  }
+
   pr_info("id is 0x%x\n", id);
 
-  // set config register at 0xF5
-  // set t_standby time
-  i2c_smbus_write_byte_data(bme280_i2c_client, 0xf5, 0x3 << 5);
+
+  // set ctrl_hum (humidity oversampling)
+  i2c_smbus_write_byte_data(bme280_i2c_client, 0xf2, (0x3 << 0));
 
   // set ctrl_meas register at 0xF4
   // set temperature oversampling to max (b101)
@@ -389,8 +395,9 @@ static int init_driver(void)
   // set normal mode (b11)
   i2c_smbus_write_byte_data(bme280_i2c_client, 0xf4, (0x5 << 5) | (0x5 << 2) | (0x3 << 0));
 
-  // set ctrl_hum (humidity oversampling)
-  i2c_smbus_write_byte_data(bme280_i2c_client, 0xf2, (0x3 << 0));
+  // set config register at 0xF5
+  // set t_standby time
+  i2c_smbus_write_byte_data(bme280_i2c_client, 0xf5, 0x3 << 5);
 
   // set the calibration registers
   read_calibration();
