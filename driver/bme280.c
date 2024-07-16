@@ -380,7 +380,7 @@ static int init_driver(void)
   if (id != 0x60)
   {
     pr_err("bme280: id is not 0x60\n");
-    goto KernelError;
+    goto I2CError;
   }
 
   pr_info("id is 0x%x\n", id);
@@ -405,6 +405,10 @@ static int init_driver(void)
   pr_info("bme280: successfully init module\n");
 
   return ret;
+I2CError:
+  i2c_unregister_device(bme280_i2c_client);
+  i2c_del_driver(&bme280_i2c_driver);
+  cdev_del(&bme280_cdev);
 KernelError:
   device_destroy(dev_class, dev_num);
 DeviceError:
